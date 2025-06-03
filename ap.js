@@ -241,3 +241,121 @@
 // else{console.log('not match')}
 // _____________________________________________________________________________________
 // ques no 19 
+// // ✅ Question 1: Basic Match
+// Question:
+// You are given a sentence:
+// "I am learning JavaScript today."
+// Check if the word "JavaScript" exists in the sentence.
+
+// Expected Output:
+// true 
+// solution
+// let sentence = 'I am learning JavaScript today';
+// let word = 'JavaScript';
+// let index = sentence.indexOf(word);
+// console.log(index);
+//  if(index !== -1){console.log('ok found')}
+//  else{console.log('not found')}
+// _________________________________________________________________________
+// ques no 20
+// Question 2: Word Not Found
+// Question:
+// You are given a sentence:
+// "HTML and CSS are used for web design."
+// Check if the word "Python" exists in the sentence.
+// Expected Output:
+// false
+// solution
+// let sentence = 'HTML and CSS are used for web design';
+// let word = 'Python';
+// let index = sentence.indexOf(word);
+// if(index === -1){console.log('false')}
+// else{console.log('true')}
+// _______________________________________________________________________
+// ques no 21 
+// finding 
+// solution
+// let sentence = 'HTML and CSS are used for web design';
+// let search = prompt('enter word you want to search');
+
+//   let isAvailabe = false;
+//  for(var i = 0; i <= sentence.length; i++){
+//      if(sentence.slice(i,i+search.length) === search){isAvailabe = true;
+//          break;
+//     }}
+ 
+//   if(isAvailabe){console.log('found')}
+//   else{console.log('not found')}
+// _______________________________________________________________________________________
+// ques no 22 
+//  Convert to Lowercase
+// Sentence: "HeLLo WorLD"
+// Convert the entire sentence to lowercase.
+
+// Expected Output:
+// "hello world"
+// solution
+// let sentence = 'HeLLo WorLD';
+// sentence = sentence.toLowerCase();
+// console.log(sentence);
+// ________________________________________________________________________________
+// ques no 23
+// Convert to Uppercase
+// Sentence: "frontend developer"
+// Convert it to uppercase.
+
+// Expected Output:
+// "FRONTEND DEVELOPER"
+// solution 
+// let sentence = "frontend developer";
+// sentence = sentence.toUpperCase();
+// console.log(sentence);
+// _____________________________________________________________________________________________
+// ques no 24 
+// Compare Two Strings Without Case Sensitivity
+// Word 1: "JavaScript"
+// Word 2: "javascript"
+// Compare them in a way that ignores case. If they match, print "Match" else "Not Match".
+
+// Expected Output:
+// "Match"
+// solution
+// let enterString1 = prompt('enter one string');
+// enterString1 = enterString1.toLowerCase();
+// let enterString2 = prompt('enter string 2 ');
+// enterString2 = enterString2.toLowerCase();
+// if(enterString1 === enterString2){console.log('match')}
+// else{console.log('not match')}
+// _______________________________________________________________________________________
+// ques no 25 
+//  Make First Word Uppercase Only
+// Sentence: "html and css are cool"
+// Make only the first word uppercase and leave the rest lowercase.
+
+// Expected Output:
+// "HTML and css are cool"
+// solution
+// let sentence = "html and css are cool";
+// let first = sentence.slice(0,4);
+// console.log(first);
+// first = first.toUpperCase();
+// console.log(first);
+// let other = sentence.slice(4);
+// console.log(other);
+// let updated = first + other;
+// console.log(updated);
+// ________________________________________________________________________________
+// ques no 26 
+// Measure Length
+// Display the total number of characters in the full name (including spaces).
+
+// let fullName = 'aziz ullah';
+// fullName = fullName.length;
+// console.log(fullName)
+// ______________________________________________________________________________________
+// ques no 27 
+// Extract First Name
+// Extract and display the first name using .slice() or .substring().
+let firstName = prompt('enter your first name');
+let lastName = prompt('enter your last name');
+let fu
