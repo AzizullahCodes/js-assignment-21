@@ -356,6 +356,242 @@
 // ques no 27 
 // Extract First Name
 // Extract and display the first name using .slice() or .substring().
-let firstName = prompt('enter your first name');
-let lastName = prompt('enter your last name');
-let fu
+// let firstName = prompt('enter your first name');
+// let lastName = prompt('enter your last name');
+// let fullName = firstName +' ' + lastName;
+// let fistName = fullName.slice(firstName,1);
+// console.log(firstName)
+// ______________________________________________________________________
+// ques no 28 
+// Uppercase & Lowercase
+
+// Convert and display the full name in:
+
+// All uppercase
+
+// All lowercase
+// solution 
+// let firstName = prompt('enter your first name');
+// let lastName = prompt('enter your  last name');
+// let fullName = firstName + ' ' + lastName;
+// console.log(fullName);
+// fullName = fullName.toUpperCase();
+// console.log(fullName);
+// fullName = fullName.toLowerCase();
+// console.log(fullName);
+// ___________________________________________________________________________________
+// ques no 29 
+// Strings for Number Conversion Practice:
+
+// "42"
+// "-100"
+// "3.14159"
+// "0"
+// "0.00"
+// " -25 " (Note the leading/trailing spaces)
+// "1,000" (Common formatting in some locales)
+// "123abc"
+// "abc123"
+// "98.6 degrees"
+// "hello"
+// "" (Empty string)
+// " " (String with only spaces)
+// "null" (The string "null", not the JavaScript null value)
+// "undefined" (The string "undefined", not the JavaScript undefined value)
+// "true"
+// "false"
+// "0x10" (Hexadecimal representation)
+// "1e3" (Scientific notation)
+// "Infinity"
+// "-Infinity"
+// solution 
+// a
+// let str = '42';
+// console.log(typeof str);
+// str = parseFloat(str)
+// console.log(typeof str)
+// --------
+// b 
+// let str = '-100';
+// console.log(typeof str);
+// str = Number(str);
+// console.log(typeof str)
+// ---------------------
+// c 
+// let str = "3.14159";
+// console.log(typeof str);
+// str = +(str);
+// console.log(typeof str);
+// console.log(str)
+// ---------------------------
+// d 
+// let str = "0";
+// console.log(typeof str);
+// str = parseInt(str);
+// console.log(typeof str);
+// ---------------------------
+// e 
+// let str = "0.4";
+// console.log(typeof str);
+// str = parseFloat(str);
+// console.log(typeof str);
+// console.log(str)
+// -----------------------------
+// f 
+// let str =  "     -25 ";
+// console.log(typeof str);
+// console.log(str);
+// str = +(str);
+// console.log(typeof str);
+// console.log(str)
+// ----------------------------
+// g 
+// let str = "1,000";
+// console.log(typeof str);
+// console.log(str);
+// str = Number(str);
+// console.log(typeof str);
+// console.log(str)
+// -------------------------
+// h 
+// let str = "abc1231";
+// str = Number(str);
+// console.log(typeof str);
+// console.log(str)
+// -----------------
+//  i 
+// let str = "98.6 degrees";
+// console.log(str)
+// str = Number(str);
+// console.log(str);
+// -----------------------
+// j 
+// let str = "";
+// console.log(str);
+// console.log(typeof str);
+// str = Number(str);
+// console.log(typeof str);
+// console.log(str)
+// ------------------ 
+// k 
+// let str = " ";
+// console.log(str);
+// console.log(typeof str);
+// str = Number(str);
+// console.log(str);
+// console.log(typeof str);
+// ------------------------
+// L 
+// let str = "null";
+// console.log(str);
+// console.log(typeof str);
+// str = Number(str);
+// console.log(str);
+// console.log(typeof str);
+// ------------------------
+// m 
+// let str = "undefined";
+// console.log(str);
+// console.log(typeof str);
+// str = Number(str);
+// console.log(str);
+// console.log(typeof str)
+// -------------
+// n 
+// let str = false;
+// console.log(str);
+// console.log(typeof str);
+// str = Number(str);
+// console.log(str);
+// console.log(typeof str);
+// ------------------------
+// o 
+// let str = "0x10";
+// console.log(str);
+// console.log(typeof str);
+// str = Number(str);
+// console.log(str);
+// console.log(typeof str);
+// ------------------- 
+// p 
+// let str = "Infinity";
+// console.log(str);
+// console.log(typeof str);
+// str = Number(str);
+// console.log(typeof str);
+// console.log(str)
+//___________________________________________________________________________
+// ques no 29 
+//  1. Declare the number variable
+// convert it to string
+// let myNumber1 = 123;
+// ans 
+// let myNumber1 = 123;
+// console.log(myNumber1);
+// console.log(typeof myNumber1);
+// myNumber1 = myNumber1.toString();
+// console.log(myNumber1);
+// console.log(typeof myNumber1);
+// ________________________________________________________________________________
+// ques no 30
+// conver to string 
+//  Declare the number variable
+// let myNumber2 = -45;
+// ans 
+// let myNumber2 = -45;
+// console.log(myNumber2);
+// console.log(typeof myNumber2);
+// myNumber2 = myNumber2.toString();
+// console.log(myNumber2);
+// console.log(typeof myNumber2);
+// ________________________________________________________________________________
+// ques no 31 
+// convert to string 
+//  Declare the number variable
+// let myNumber3 = 3.14;
+// ans 
+// let vr = 3.14;
+// console.log(vr);
+// console.log(typeof vr);
+// vr = vr.toString();
+// console.log(vr);
+// console.log(typeof vr);
+// let newVr = vr + '';
+// console.log(newVr);
+// console.log(typeof newVr);
+// ____________________________________________________________________________
+// ques no 32 
+// conver to string
+// . Declare the number variable
+// let myNumber4 = 0;
+// ans 
+// let num = 0;
+// console.log(num);
+// console.log(typeof  num);
+// num = num.toString();
+// console.log(num);
+// console.log(typeof num)
+// ________________________________________________________________________
+// ques no 33 
+//  Round a Decimal to Two Places
+// Write a JavaScript program that takes the number 5.6789 and rounds it
+//  to 2 decimal places.
+// Expected Output: 5.68
+// //
+// ans 
+// let num = 5.6789;
+// console.log(num);
+// num = num.toFixed(2);
+// console.log(num)
+// ----------------------------------------------------------------------------------------------
+// ques no 34 
+//  Round to Whole Number
+// Use let num = 4.99;
+// Use .toFixed(0) to round it to a whole number.
+// ans 
+// let num = 4.99;
+// num = num.toFixed(0);
+// console.log(num)
+// _________________________________________________________________________________________
+// ques no 35 
+// find segment of string 
