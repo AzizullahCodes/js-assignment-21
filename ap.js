@@ -594,4 +594,96 @@
 // console.log(num)
 // _________________________________________________________________________________________
 // ques no 35 
-// find segment of string 
+// 
+// AHMED
+// HMEDA 
+// MEDAH 
+// EDAHM
+// DAHME 
+// AHMED  
+// ANS 
+// first step
+// let nam = 'AHMED';
+// let char1 = nam.charAt();
+// let otherChar = nam.slice(1);
+// let updatNam = otherChar + char1;
+// console.log(updatNam);
+// second step 
+// let nam = 'HMEDA';
+// let firstChar = nam.charAt();
+// let otherChar = nam.slice(1);
+// let updatNam  = otherChar + firstChar;
+// console.log(updatNam);
+// third step 
+// let nam = 'MEDAH';
+// let firstChar = nam.charAt();
+// let otherChar = nam.slice(1);
+// let updatNam = otherChar + firstChar;
+// console.log(updatNam); 
+// fourth step 
+// let nam = 'EDAHM';
+// let firstChar = nam.charAt();
+// let otherChar = nam.slice(1);
+// let updatNam = otherChar + firstChar;
+// console.log(updatNam);
+// fifth step 
+// let nam = 'DAHME';
+// let firstChar = nam.charAt();
+// let otherChar = nam.slice(1);
+// let updatNam = otherChar + firstChar;
+// console.log(updatNam);
+// ______________________________________________________________________________________
+// ques no 36 
+// conver number to string 
+// let numb = 786;
+// console.log(numb);
+// console.log(typeof numb);
+// numb = numb + '';
+// console.log(numb);
+// console.log(typeof numb);
+// ________________________________________________________________________________________
+// ques no 37 
+// changing case 
+// let word = 'hello';
+// word = word.toUpperCase();
+// console.log(word)
+// __________________________________________________________________________________
+// ques no 38 
+// changing case 
+// let name = 'azizullah';
+// let firstChar = name.charAt().toUpperCase();
+// let otherChar = name.slice(1);
+// let updated = firstChar + otherChar;
+// console.log(updated);
+// _________________________________________________________________________________
+// ques no 39 
+// capitalize firt letter of two words 
+// let sentence = 'my name';
+// let first  = sentence.charAt().toUpperCase();
+// let index = sentence.indexOf('n');
+// let other = sentence.slice(1);
+// console.log(other);
+// let updated = first + other;
+// console.log(updated)
+// console.log(index);
+// let second = sentence.charAt(3).toUpperCase();
+// console.log(second);
+// let secondSecond = updated.slice(4);
+// let newUpdated = second + secondSecond;
+// console.log(newUpdated);
+// let last = updated.slice(0,2);
+// let lastUpdated = last + ' ' +  newUpdated;
+// console.log(lastUpdated);
+// ____________________________________________________________________________
+// ques no 40 
+// mixed to upperCase 
+// ans 
+// let word = 'jaVaScRiPt';
+// word = word.toUpperCase();
+// console.log(word);
+// ___________________________________________________________________________
+// ques no 41 
+// check if word is all upercase 
+// let word = 'HELLO';
+// if(word === word.toUpperCase()){console.log('yes')}
+// else{console.log('not')}
