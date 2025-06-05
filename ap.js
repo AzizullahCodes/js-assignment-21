@@ -229,16 +229,16 @@
 // ques 18 
 // charAt practice
 // solution
-// let enterFirstWord = prompt('enter first word');
-// let enterSecondWord = prompt('enter Second word');
-// enterFirstWord = enterFirstWord.toLowerCase();
-// enterSecondWord = enterSecondWord.toLowerCase()
-// let charatFirstWord = enterFirstWord.charAt();
-// console.log(charatFirstWord);
-// let charAtSecondWord = enterSecondWord.charAt();
-// console.log(charAtSecondWord);
-// if(charatFirstWord === charAtSecondWord){console.log('match')}
-// else{console.log('not match')}
+ let enterFirstWord = prompt('enter first word');
+ let enterSecondWord = prompt('enter Second word');
+ enterFirstWord = enterFirstWord.toLowerCase();
+ enterSecondWord = enterSecondWord.toLowerCase()
+ let charatFirstWord = enterFirstWord.charAt();
+ console.log(charatFirstWord);
+ let charAtSecondWord = enterSecondWord.charAt();
+ console.log(charAtSecondWord);
+ if(charatFirstWord === charAtSecondWord){console.log('match')}
+ else{console.log('not match')}
 // _____________________________________________________________________________________
 // ques no 19 
 // // ✅ Question 1: Basic Match
@@ -711,7 +711,7 @@
 //  ans 
 let myString = 'Hello World!';
 let firstChar = myString.charAt();
-let seventhChar = myString.charAt(7);
+let seventhChar = myString.charAt(6);
 console.log(myString);
 console.log(firstChar);
 console.log(seventhChar);
