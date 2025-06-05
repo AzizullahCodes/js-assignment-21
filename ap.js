@@ -687,3 +687,31 @@
 // let word = 'HELLO';
 // if(word === word.toUpperCase()){console.log('yes')}
 // else{console.log('not')}
+// _________________________________________________________________________________
+// ques no 42 
+// controlling length of decimal 
+//   ans 
+
+// let origionalPrice = 342.7896;
+// let modifiedPrice  = origionalPrice.toFixed(1);
+// console.log(modifiedPrice);
+// ____________________________________________________________________________________
+// ques no 43 
+// Task:
+
+// Declare a variable myString and assign it the string "Hello World!".
+// Use charAt() to extract the character at index 0 and store it in a variable firstChar.
+// Use charAt() to extract the character at index 6 and store it in a variable seventhChar.
+// Print myString, firstChar, and seventhChar to the console.
+// Expected Output:
+
+// Original String: Hello World!
+// First Character: H
+// Seventh Character: W
+//  ans 
+let myString = 'Hello World!';
+let firstChar = myString.charAt();
+let seventhChar = myString.charAt(7);
+console.log(myString);
+console.log(firstChar);
+console.log(seventhChar);
